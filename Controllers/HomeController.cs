@@ -60,6 +60,7 @@ namespace InsuranceClientPortal.Controllers
                 Customer customerEntity = new Customer(customerId, customer.InsuranceType);
                 customerEntity.Amount = customer.Amount;
                 customerEntity.Name = customer.Name;
+                customerEntity.Email = customer.Email;
                 customerEntity.AppDate = customer.AppDate;
                 customerEntity.Premium = customer.Premium;
                 customerEntity.EndDate = customer.EndDate;

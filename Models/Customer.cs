@@ -21,6 +21,8 @@ namespace InsuranceClientPortal.Models
 
         public String Name { get; set; }
 
+        public String Email { get; set; }
+
         public DateTime AppDate { get; set; }
 
         public double Amount { get; set; }

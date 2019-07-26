@@ -17,6 +17,9 @@ namespace InsuranceClientPortal.ViewModel
 
         public String InsuranceType { get; set; } // Partition Key
 
+        [DataType(DataType.EmailAddress)]
+        public String Email { get; set; } // Partition Key
+
         [DataType(DataType.Currency)]
         public double Amount { get; set; }
 
